@@ -14,7 +14,7 @@ function Ethos() {
           </div>
           <div class="feature-grid-2 about">
               <Title title="Tony" />
-              <img src={Tony} alt="" />
+              <img src={Dave} alt="" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero venenatis, semper diam nec, pharetra sem. Sed eu euismod est. Sed in metus ac leo sodales fringilla id ac lectus. Aliquam congue leo vitae pulvinar condimentum. Aenean porttitor ex erat, in semper nulla vehicula ac. Vivamus ipsum leo, aliquet nec laoreet sit amet, tristique nec turpis. Curabitur ut ligula id lorem euismod ultrices. Vestibulum eget arcu eget metus fringilla sagittis. Aliquam dignissim egestas varius. Cras sem est, congue id magna eu, tincidunt accumsan nunc. Aenean non tempus mauris.</p>
           </div>
           </div>
