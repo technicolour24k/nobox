@@ -1,18 +1,16 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 #mainBody {
-	overflow: auto;
-	min-height:100%;
-	  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  overflow: auto;
+  min-height: 100%;
 }
 
 body {
@@ -20,72 +18,67 @@ body {
 }
 
 .borders {
-	border: 2px red solid;
+  border: 2px red solid;
 }
 
 .borders2 {
-	border: 2px blue solid;
+  border: 2px blue solid;
 }
 
 nav {
-	background:#FFF;
-  	border-bottom: 5px navy solid;
-  	max-height:5%;
-  	color: #252525;
-  	cursor: pointer;
-  	padding-top:15px;
-  	padding-bottom: 5px;
-  	display: flex;
-  	justify-content: space-between;
+  background: #fff;
+  border-bottom: 5px navy solid;
+  max-height: 5%;
+  color: #252525;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 nav ul {
-	list-style-type: none;
-	overflow: hidden;
-	  	margin: 0;
-  	padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-	color: #252525;
-  	cursor: pointer;
-  	margin-right: 1em !important;
+a {
+  color: #252525;
+  cursor: pointer;
+  margin-right: 1em !important;
 }
-
 
 a:hover {
-  	color: #000;
-  	font-weight: bold;
-	}
-	
+  color: #000;
+  font-weight: bold;
+}
+
 .logo {
-	max-height:75px;
+  max-height: 75px;
 }
 
 .content {
-  	margin: 4em auto;
-  	padding: 1em;
-  	position: relative;
-	height:50vh;
-	flex: 1 0 auto;
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+  height: 50vh;
+  flex: 1 0 auto;
 }
 
 .overlay {
-	background: 
-    	linear-gradient(
-      	rgba(0, 0, 0, 0.5),
-      	rgba(0, 0, 0, 0.5)
-    	),
-    	url(./Components/Images/cover.jpg);
-    	background-size: cover;
-    	text-align:center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Components/Images/cover.jpg);
+  background-size: cover;
+  text-align: center;
 }
 .content .title {
-  color: #FFF;
+  color: #fff;
   font-size: 1.3em;
   font-weight: 700;
   margin-bottom: 20px;
   text-transform: uppercase;
-  opacity:100%;
+  opacity: 100%;
 }
 .content img {
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -98,69 +91,69 @@ a:hover {
 
 .content .form-control,
 .content input {
-    border-radius: 0;
+  border-radius: 0;
 }
 .content .btn {
-  border:1px solid #020847;
-  background:#020847;
+  border: 1px solid #020847;
+  background: #020847;
   border-radius: 20px;
-  color:#fff;
+  color: #fff;
   margin-top: 20px;
   padding: 20px 40px;
   font-weight: bolder;
-  font-size:1em;
+  font-size: 1em;
 }
 .content .btn:hover {
-  border:1px solid #162085;
-  background:#162085;
+  border: 1px solid #162085;
+  background: #162085;
 }
 
 .description {
-	color: #FFF;
-	margin: 15%;
-	font-weight: bolder;
+  color: #fff;
+  margin: 15%;
+  font-weight: bolder;
 }
 
 .footer {
-	background:#FFF;
-  	border-top: 5px navy solid;
-  	height: 75px;
-  	color: #252525;
-  	text-align:center;
-  	position: relative;
-  	width: 100%;
-  	flex: 0;
- }
- 
- .clearfix {
- 	padding: 0;
- 	margin: 0;
- }
- 
- .content-grid {
- 	max-width: 85%;
-   	display: flex;
-  	justify-content: space-evenly;
-  	margin:50px auto;
- }
+  background: #fff;
+  border-top: 5px navy solid;
+  height: 75px;
+  color: #252525;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  flex: 0;
+}
 
- .feature-grid-1 {
- 	width:100%;
- }
-  
- .feature-grid-2 {
- 	width:45%;
- }
- 
- .feature-grid-3 {
- 	width:30%;
- }
- 
- .center {
- 	vertical-align:center;
- }
- 
- [class^="icon"] {
+.clearfix {
+  padding: 0;
+  margin: 0;
+}
+
+.content-grid {
+  max-width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+
+.feature-grid-1 {
+  width: 100%;
+}
+
+.feature-grid-2 {
+  width: 45%;
+}
+
+.feature-grid-3 {
+  width: 30%;
+}
+
+.center {
+  vertical-align: center;
+}
+
+[class^='icon'] {
   width: 25px;
   height: 25px;
   position: relative;
@@ -169,11 +162,11 @@ a:hover {
   border-radius: 20px;
 }
 
-[class^="feature-grid"].about img {
-	width: 75%;
-  	max-width: 400px;
+[class^='feature-grid'].about img {
+  width: 75%;
+  max-width: 400px;
 }
 
 #name {
-	padding-left:15px;	
+  padding-left: 15px;
 }
